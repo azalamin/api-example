@@ -1,0 +1,32 @@
+#buddy {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+}
+
+.person {
+    background-color: bisque;
+    border: 2px solid orange;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#all-country {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.country {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid tomato;
+    border-radius: 20px;
+}
+
+.details {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
